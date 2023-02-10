@@ -1,0 +1,17 @@
+ its new file created by mangal 22 
+        its a grat file for print 
+        mangal is don
+        whats are you saying 
+        its a new type of function for file handling  its new file created by mangal 22 
+        its a grat file for print 
+        mangal is don
+        whats are you saying 
+        its a new type of function for file handling 
+
+MANGAL,60000;
+AKASH,35000;
+PREET,30000;
+PUNEET,15000;MANGAL  has salery is  60000
+AKASH  has salery is  35000
+PREET  has salery is  30000
+PUNEET has salery is  15000

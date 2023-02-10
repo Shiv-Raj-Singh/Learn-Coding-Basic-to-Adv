@@ -1,0 +1,59 @@
+# Number=49
+# x= int(input('guess a nuber-  '))
+# guess_time=0
+# # game_over=False
+# # while not game_over :
+# while x!=Number:
+#     if guess_time==5 and x!=Number:
+#         print('//OOF GAME OVER //')
+#         break
+#     if  x>Number:
+#         print('your number is too big' ,f'you used {guess_time} rounds out of 5 ')
+#         # game_over=True
+        
+#     elif x==Number:
+#         print( f'// YOU WINNN // with in {guess_time} rounds ')
+        
+#     else:
+#         print('your number is too low' ,f'you used {guess_time} rounds out of 5')
+#     x=int(input('enter again -'))
+#     guess_time+=1
+#     # continue
+# # print('you lost this game play again after some time -  ')
+    
+# x=int(input('enter again -'))
+# guess_time+=1
+        
+x=int(input('enter a number- '))      
+b=int(input('enter a boolean value as 0 for False and 1 for True -  '))
+# gm=False
+# while not gm:
+if b==1:
+    for i in range(0,x+1,1):
+        print('*'*(i) ) 
+            # gm=True
+            # print('*'*(i),f' is  {pos} ') 
+elif b==0:
+    for i in range(x,0,-1):
+        print('*'*(i)) 
+else:
+    print(' something wrong ')
+#         gm=True
+#     else:
+#         x=int(input('enter a number- '))      
+#         b=int(input('enter a boolean value as 0 for False and 1 for True -  '))
+    
+    
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
