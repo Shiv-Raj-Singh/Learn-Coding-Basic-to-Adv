@@ -1,0 +1,44 @@
+/* body{ 
+     background-color: rgb(175, 226, 228);
+    font-family: Arial, Helvetica, sans-serif;
+}
+marquee{
+    color: rgb(52, 9, 87);
+    font-family: italicy;
+    background-color: rgb(64, 16, 109);
+}
+form{
+    text-align: center;
+}
+input[placeholder="type your name-"]{
+    background-color: rgb(19, 177, 90);
+} */
+/* * {
+    background-color: rgb(219, 212, 226);
+    color: yellowgreen;
+}
+input *{
+    background-color: burlywood; */
+}
+/* input[type="text"] {
+    width: 1500px;
+    display: red;
+    margin-bottom: 100px;
+    background-color: yellow;
+  }
+  
+  input[type="email"] {
+    width: 1200px;
+    margin-left: 305px;
+    display: green;
+  } */
+label[for="NAME"] {
+    background-color: green;
+}
+input[type^="radio"] {
+    background-color: blue;
+    color: rgb(85, 170, 16);
+}
+select[option*=B] {
+    color: burlywood;
+}

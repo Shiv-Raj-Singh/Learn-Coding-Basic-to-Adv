@@ -1,0 +1,105 @@
+marquee{ background: skyblue;
+    color: rgb(90, 16, 16);
+    text-transform: uppercase;
+    line-height: 30px;
+    word-spacing: 13px;
+    margin-bottom: 4%;
+}
+a:link{
+color: yellow;
+}
+a:visited{
+    color: green;
+    background-color: lightblue;
+}
+a:hover{
+    color: red;px 32Rdwsx
+    background-color: black;
+    border: 2px solid orangered;
+}
+a:active{
+    
+    color: silver;
+    background-color: rgb(90, 16, 16);
+    padding: 2%;    
+}
+p:first-child{
+    /* word-spacing: 49px; */
+    color: blue;
+}
+div:last-of-type{
+    background-color: rgb(241, 134, 150);
+}
+p:nth-of-type(2){
+    color: rgb(151, 121, 147);
+}
+/* p:nth-of-type(1){
+    color: rgb(56, 71, 42);
+} */
+p:last-child{
+    color: rgb(212, 18, 34);
+    background-color: lightgreen;
+}
+p:last-child{
+    color: rgb(212, 18, 34);
+    background-color: lightgreen;
+}
+a{  
+    margin: 2%;
+    margin-top: 1%;
+    border: 2px solid black;
+}
+.m1{ background: fixed rgb(209, 186, 129);
+    text-align: center;
+    background-color: silver;
+}
+
+h1:hover{ 
+    word-spacing: 500%;
+    color: blueviolet;
+    background-color: lightgreen;
+}
+#p1:hover{ 
+    /* font-size: 200%; */
+    word-spacing: 15px;
+    color: rgb(24, 20, 27);
+    background-color: rgb(206, 214, 206);
+}
+#p2:hover{ 
+    line-height: 25px;
+    word-spacing: 10px;
+    color: rgb(49, 32, 36);
+    background-color: rgb(243, 126, 194);
+}
+#p3:hover{ 
+    line-height: 25px;
+    word-spacing: 10px;
+    font-size: larger;
+    letter-spacing: 2px;
+    color: rgb(34, 97, 15);
+    background-color: lightgreen;
+}
+
+#p11:active{ line-height: 5px;
+    font-weight: bold;
+    font-size: 150%;
+    text-align: center;
+    border: 2px dotted rgb(111, 228, 117);
+    margin: 2%;
+    padding: 2%;
+background-color: rgb(86, 236, 111);
+color: gold;
+}
+#p11:hover{
+background-color: rgb(191, 191, 231);
+color: darkgreen;
+}
+#div{ 
+    glyph-orientation-vertical: auto;
+    border: 3px solid darkgreen;
+    margin: 3%;
+    text-align: center;
+    color: black;
+    line-height: 40px;
+    background-color: rgb(189, 228, 189);
+}

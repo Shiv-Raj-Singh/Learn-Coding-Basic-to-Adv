@@ -1,0 +1,87 @@
+.mangal-header{
+    max-width: 100%;
+    width: 98%;
+    height: 95vh;
+    /* box-sizing: border-box; */
+    background: rgb(233, 233, 116);
+}
+.navbar{
+    width: 100%;
+    border: 2px black solid;
+}
+.navbar .logo{
+    border: 5px rgb(235, 71, 71) solid;
+    text-transform: uppercase;
+    background-color: rgba(0, 0, 0, 0.185);
+    
+}
+
+
+.navbaritem a{
+    display: block;
+    padding: 0.5rem 0;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: yellow;
+    /* background-color: rgb(13, 163, 76); */
+}
+
+.navbar .logo{
+    float: right;
+    width: 75%;
+    padding: 1rem 0;  
+    text-align: center;
+    font-size: 1.5em;  
+}
+.navbar .navbaritem{
+    float: left;
+    width: 23%;
+    height: 95vh;
+    background-color: rgba(209, 164, 164, 0.863);
+    border: 5px rgb(92, 18, 161) solid;
+}
+.navbar::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.mangal-header .intro{
+    margin-left: 1rem;
+    
+}
+.mangal-header .intro h1{
+    text-transform: capitalize;
+    font-weight: 900;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* border: .3rem solid red; */
+    margin: .5rem;
+    width: 80%;
+    
+    font-size: 2.5em;
+}
+.intro p{
+    text-transform: capitalize;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 1.5em;
+    margin-left: 10px;
+}
+
+.second{
+    border: 5px black;
+    margin-top: 5rem;
+    width: 98vw;
+}
+.second .dtls .dtl{
+    border: 2.5px blue dotted;
+}
+.dtls .img1{
+    float: right;
+    width: 48vw;
+    object-fit: cover;
+    
+}
+.dtls .txt{
+    float: left;
+    width: 50%;
+}

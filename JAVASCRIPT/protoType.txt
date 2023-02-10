@@ -1,0 +1,42 @@
+__Proto__ --> A proto is an refrence of an object in which we can refer a objcet to another object 
+
+const obj = {
+     a : 1,
+     b : 2, 
+     c :3 
+     }
+
+ const obj2 = {
+     d : 7,
+     e : 5
+   }
+
+console.log(obj.a)           // Value is  1 
+// console.log(obj2.a)       // Undefined 
+
+const obj2 = Object.create(obj)   //  giving the ref of obj to obj2
+
+console.log(obj2)      //  empty object now { }
+
+obj2.d = 7
+obj2.e = 5           
+
+ console.log(obj.a)        //   1 
+ console.log(obj2.a)       //   1     bcoz there obj2 have not any key by a name now it's inherting the value of a from obj (first object)
+
+*****************************************************************************************************************************************************
+
+rototype ---> this is totally diff to __proto__ obj bsically prototype is also an object that is own object of each function
+
+
+// every function have own constructor object that's called  prototype that is an empty object which exist inside evry Function
+
+function hello(){
+    return 'hello world'
+}
+
+console.log(hello.prototype)     //  Empty Object  { }
+hello.prototype.name = "SHIV RAJ"     // add a key prototype object 
+console.log(hello.prototype)            //   { name: 'SHIV RAJ' }
+
+
